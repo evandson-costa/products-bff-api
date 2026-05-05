@@ -1,0 +1,36 @@
+# Build
+bin/
+obj/
+out/
+
+# .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.rsuser
+
+# Publicação
+publish/
+*.pubxml
+*.pubxml.user
+
+# Logs e temporários
+*.log
+*.tmp
+*.temp
+
+# Secrets — nunca commitar
+appsettings.Production.json
+appsettings.Secrets.json
+secrets.json
+.env
+
+# Docker volumes
+docker-data/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
